@@ -1,0 +1,33 @@
+{
+  "name": "@pipeworx/mcp-morocco-hcp-statistics",
+  "version": "0.1.0",
+  "description": "Morocco, Haut-Commissariat au Plan (HCP) -- quarterly Bulletin statistique. Fleet #2932.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "mcp-morocco-hcp-statistics": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "morocco-hcp-statistics"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-morocco-hcp-statistics.git"
+  },
+  "mcpName": "io.github.pipeworx-io/morocco-hcp-statistics",
+  "pipeworx": {
+    "mode": "gateway",
+    "slug": "morocco-hcp-statistics",
+    "gatewaySlug": "morocco-hcp-statistics",
+    "sourceHash": "v1-40a5b1d0f35bd08e5f45c002e212df75155fae0d77f0baffbd5748d8b46c2dc8",
+    "sourceCommit": "aef970216f5309cdd22a27ddfc275e472aaadac1"
+  }
+}
